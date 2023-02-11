@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Quicksand:wght@500;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --color-background: #0C0910;
+    --color-primary: #0FF4C6;
+    --color-accent: #D68FD6;
+    --color-secondary: #464F51;
+    --color-highlight: #DEFFF2;
+    --color-text: seashell;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: var(--color-text);
+	text-decoration: none;
+}
+
+h1 { font-family: 'Quicksand', sans-serif; }
+h2, h3, h4, h5, h6 { font-family: 'Quicksand', monospace; }
+button, p, a { font-family: 'Lato', sans-serif; }
