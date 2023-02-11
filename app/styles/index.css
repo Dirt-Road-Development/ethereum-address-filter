@@ -1,0 +1,41 @@
+body {
+    background: var(--color-background);
+    color: var(--color-text);
+    min-height: 100vh;
+    height: auto;
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+
+nav, footer {
+    height: 75px;
+}
+
+nav {
+    border-bottom: 0.5px solid var(--color-primary);
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+nav h1 {
+    position: absolute;
+    left: 5%;
+}
+
+#layout-container {
+    height: auto;
+    min-height: calc(100vh - 150px);
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p {
+    font-size: 0.75rem;
+    color: var(--color-highlight);
+}
